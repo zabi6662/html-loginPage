@@ -1,0 +1,131 @@
+body{
+    background-image:url(starpics.jpg) ;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    animation-delay: 0.5s;
+}
+.email{
+    text-align: left;
+    font-size: 20px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-left: 470px;
+    display: inline-block;
+    width: 290px;
+    padding: 12px;
+    animation-delay: 1s;
+}
+.email:hover{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.pass{
+    display: block;
+    text-align:left;
+    font-size: 20px;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 470px;
+    margin-top: 40px;
+    width: 290px;
+    padding: 12px;
+    animation-delay: 1.25s;
+}
+.pass:hover{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.box{
+    size: 1000px;
+    margin-left: 470px;
+    margin-top: 20px;
+    animation-delay: 1.5s;
+}
+.T{
+    color: white;
+    display: inline;
+    animation-delay: 1.54s;
+}
+.Te{
+    color: white;
+    margin-left: 90px;
+    display: inline;
+}
+.but{
+    cursor: pointer;
+    background-color: green;
+    size: 400px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 470px;
+    width: 310px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    color: white;
+    animation-delay: 2s;
+    
+}
+.but:hover{
+    border-top-right-radius: 5px;
+     background-color: rgb(83, 230, 83);
+    
+}
+.Ta{
+    color: white;
+    text-align: center;
+}
+.fb{
+    cursor: pointer;
+    background-color: blue;
+    size: 400px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 470px;
+    width: 290px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    animation-delay: 2.5s;
+}
+.fb:hover{
+    background-color: rgb(13, 179, 234);
+}
+.s{
+    color: aqua;
+}
+.s:hover{
+    font-style: italic;
+    text-decoration: underline;
+    color: yellow;
+    cursor: pointer;
+
+}
+
+.q{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.ani{
+    opacity: 0;
+    transform: translate(40px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+
+    }
+    
+}
